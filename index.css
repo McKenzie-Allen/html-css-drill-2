@@ -13,6 +13,7 @@ the last box is a light border with the words of HELLO FRIENDS that is the color
 body {
     margin: 0;
     padding: 25;
+    height: 1000px;
 }
 
 #container1 {
@@ -57,4 +58,24 @@ body {
     box-shadow: #000000 10px 10px 5px;
     margin: 0 auto;
     top: 20px;
+}
+
+#container3 {
+    padding: 25px;
+    background-color: white;
+    border: #ccc 2px solid;
+    height: 200px;
+    width: 350px;
+    margin: 25px auto;
+    box-shadow: #000000 3px 3px 3px;
+}
+
+#container3 h1 {
+    color: #000080;
+    margin: auto;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    top: 50px;
+    text-align: center;
 }
